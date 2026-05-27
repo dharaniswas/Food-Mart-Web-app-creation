@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --body-font: "Open Sans", sans-serif;
+    --heading-font: "Nunito", sans-serif;
+}
+
+.search-box {
+    background-color: #f8f8f8;
+    width: 520px;
+    height: 45px;
+}
+
+.search-box select {
+    font-size: 13px;
+}
+
+.search-box input {
+    font-size: 13px;
+}
+
+.search-box i {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.support-box small {
+    font-size: 13px;
+}
+
+.cart {
+    font-size: 15px;
+}
+
+.fa-user,
+.fa-heart {
+    cursor: pointer;
+}
+
+.main-menu {
+    font-size: 13px;
+}
+
+.main-menu select {
+    font-size: 14px;
+}
+
+.sale {
+    background-image: url(images/background-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.banner-selection {
+    padding-top: 10px;
+}
+
+.main-banner {
+    background-color: #E6F3FB;
+    background-image: url(images/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 40px top 30px;
+    background-size: 700px;
+    border-radius: 30px;
+    min-height: 516px;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-content {
+    width: 55%;
+}
+
+.offer-text {
+    color: #d8a327;
+    font-size: 30px;
+    font-family: serif;
+    display: block;
+    margin-top: -160px;
+}
+
+.banner-content span {
+    margin-bottom: 20px;
+}
+
+.banner-content h1 {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Nunito', sans-serif;
+    color: #222;
+}
+
+.banner-content p {
+    color: #777;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+.shop-btn {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 15px 15px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.small-banner {
+    border-radius: 25px;
+    padding: 40px;
+    /* height: 288px; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.green-banner {
+    background-color: #EEF5E5;
+    background-image: url(images/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    min-height: 100px;
+}
+
+.pink-banner {
+    background-color: #F9EBDE;
+    background-image: url(images/slide-4.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+        min-height: 100px;
+
+}
+
+.discount {
+    font-size: 30px;
+    font-family: ' Garamond', serif;
+}
+
+.small-banner small {
+    display: block;
+    letter-spacing: 4px;
+    margin: 7px 0;
+    font-size: 10px;
+}
+
+.small-banner h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Nunito', sans-serif;
+}
+
+.small-banner a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+.selection-title{
+    font-size: 1.8rem;
+    font-family:'Nunito', sans-serif;
+    color: #222;
+    font-weight: 700px;
+
+}
+.btn-link{
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #787878;
+}
+.swiper-prev{
+    width: 32px;
+    height: 32px;
+    background-color: #F1F1F1;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    cursor: pointer;
+}

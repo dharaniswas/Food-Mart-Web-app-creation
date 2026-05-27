@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="foodmart.css">
+    <title>FoodMart</title>
+</head>
+
+<body>
+    <header class="container-fluid px-5 py-3">
+        <div class="d-flex align-items-center justify-content-between gap-5">
+            <div>
+                <img src="images/logo.png" alt="logo" style="height: 40px; width: 200px;">
+            </div>
+            <div class="search-box d-flex align-items-center rounded-4 px-3 ms-5 gap-5">
+                <select class="form-select border-0 bg-transparent shadow-none w-auto">
+                    <option>All Categories</option>
+                    <option>Groceries</option>
+                    <option>Drinks</option>
+                    <option>Chocolates</option>
+                </select>
+                <input type="text" class="form-control border-0 bg-transparent shadow-none"
+                    placeholder="Search for more than 20,000 products">
+                <i class="bi bi-search me-4"></i>
+            </div>
+            <div class="d-flex align-items-center gap-4">
+                <div class="support-box text-end me-5">
+                    <small class="text-muted d-block">For Support?</small>
+                    <h6 class="fw-bold mb-0" style="letter-spacing: 2px;">+980-34984089</h6>
+                </div>
+                <div class="d-flex gap-4 me-4 fs-6">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="cart text-end">
+                    <small class="text-muted d-block">Your Cart</small>
+                    <h6 class="fw-bold mb-0">$1290.00</h6>
+                </div>
+            </div>
+        </div>
+        <hr style="color: rgb(219, 219, 219);">
+    </header>
+    <div class="top-nav d-flex">
+        <div class="row">
+            <div class="main-menu col-md-4 d-flex ps-5">
+                <select class="form-select border-0 bg-transparent" style="width: fit-content;">
+                    <option>Shop by Departments</option>
+                    <option>Groceries</option>
+                    <option>Drinks</option>
+                    <option>Chocolates</option>
+                </select>
+                <ul class="navbar-nav flex-row gap-4 ps-5">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Brand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sale mt-4">
+        <div class="banner-selection container-fluid px-5">
+            <div class="row g-4">
+                <div class="col-lg-7">
+                    <div class="main-banner" >
+                        <div class="banner-content">
+                            <span class="offer-text ">100% Natural</span>
+                            <h1>
+                                Fresh Smoothies <br>
+                                & Summer Juice
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Dignissim massa diam elementum.
+                            </p>
+                            <button class="shop-btn">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="small-banner green-banner p-5 mb-3">
+                        <div>
+                            <span class="discount">20% Off</span>
+                            <small>SALE</small>
+                            <h3>
+                                Fruits & <br>
+                                Vegetables
+                            </h3>
+                            <a href="#">Shop Collection → </a>
+                        </div>
+                    </div>
+                    <div class="small-banner pink-banner p-5">
+                        <div>
+                            <span class="discount">15% Off</span>
+                            <small>SALE</small>
+                            <h3>Baked Products</h3>
+                            <a href="#">Shop Collection → </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="selection-header d-flex flex-warp justify-content-between mb-5">
+            <h2 class="selection-title m-5"> <b>Category</b></h2>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn-link text-decoration-none gap-5">View All Categories →</a>
+                <div class="swiper-btn ms-5 me-5">
+                    <button class="swiper-pre">❮</button>
+                    <button class="swiper-next">❯</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="Categorie swiper swiper-initialized swiper-hozontal"></div>
+        </div>
+    </div>
+</body>
+
+</html>
